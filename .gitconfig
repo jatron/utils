@@ -1,0 +1,46 @@
+[user]
+	email = jatron@users.noreply.github.com
+	name = Jorge Troncoso
+[core]
+	editor = vim
+[push]
+	default = simple
+[alias]
+	a = add .
+	au = add -u
+	br = branch
+	d = diff
+	dc = diff --cached
+	c = commit
+	cam = commit --amend
+	cane = commit --amend --no-edit
+	cb = checkout -b
+	co = checkout
+	cp = cherry-pick
+	cs = commit -s
+	csd = commit -s -m 'DO NOT SUBMIT' -e
+	cse = commit -s -m 'EXPERIMENTAL' -e
+	cswip = commit -s -m 'WIP' -e
+	f = fetch
+	last = log -1 HEAD
+	lgo = log --graph --oneline
+	list-authors = log --format='%aN'
+	ll = log --oneline --decorate -n5
+	logod = log --oneline --decorate
+	lp = log -p
+	map = log --graph --oneline --all --decorate
+	p = push
+	pr = pull --rebase
+	ref = reflog -20 --date=iso
+	ri = rebase -i
+	s = status
+[merge]
+	tool = meld
+[mergetool "meld"]
+	# Choose one of these 2 lines (not both!)
+	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+	# cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+
+# Sources of git aliases
+# https://victorzhou.com/blog/git-aliases/
+

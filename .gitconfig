@@ -9,8 +9,6 @@
 	a = add .
 	au = add -u
 	br = branch
-	d = diff
-	dc = diff --cached
 	c = commit
 	cam = commit --amend
 	cane = commit --amend --no-edit
@@ -21,6 +19,8 @@
 	csd = commit -s -m 'DO NOT SUBMIT' -e
 	cse = commit -s -m 'EXPERIMENTAL' -e
 	cswip = commit -s -m 'WIP' -e
+	d = diff
+	dc = diff --cached
 	f = fetch
 	last = log -1 HEAD
 	lgo = log --graph --oneline

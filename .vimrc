@@ -63,10 +63,16 @@ nmap c <c-w>v
 nmap <space> :
 imap jk <Esc>
 set listchars=trail:·
+"Tabs will be shown as > for the start position and - through the rest of the
+"<Tab>
+"set listchars+=tab:>-
 "Display whitespace. :set list makes <Tab> characters appear as ^I
 set list
 set noswapfile
 set textwidth=80
+"Color column 80
+"highlight ColorColumn ctermbg=black
+"set colorcolumn=80
 
 "Resources
 "-https://medium.com/@arisweedler/tab-settings-in-vim-1ea0863c5990

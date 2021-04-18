@@ -5,6 +5,8 @@
 	editor = vim
 [push]
 	default = simple
+# Sources of git aliases
+# https://victorzhou.com/blog/git-aliases/
 [alias]
 	a = add .
 	au = add -u
@@ -52,7 +54,8 @@
 			'"
 	smudge = cat
 	required = true
-
-# Sources of git aliases
-# https://victorzhou.com/blog/git-aliases/
+# Remember GitHub credentials
+# https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git
+[credential]
+	helper = osxkeychain
 

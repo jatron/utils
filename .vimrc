@@ -78,3 +78,7 @@ set textwidth=80
 "-https://medium.com/@arisweedler/tab-settings-in-vim-1ea0863c5990
 "-http://vimdoc.sourceforge.net/htmldoc/filetype.html
 
+"Automatically wrap long Git commit messages in Vim
+"https://wincent.com/blog/automatic-wrapping-of-git-commit-messages-using-vim
+"https://stackoverflow.com/questions/11023194/automatically-wrap-long-git-commit-messages-in-vim/
+filetype indent plugin on

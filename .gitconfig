@@ -58,4 +58,6 @@
 # https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git
 [credential]
 	helper = osxkeychain
+[advice]
+	detachedHead = false
 

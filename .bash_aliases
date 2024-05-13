@@ -25,3 +25,8 @@ alias reboot='echo noooooooooooO!'
 # Sources of bash aliases
 # https://opensource.com/article/19/7/bash-aliases
 
+# By default, ripgrep will respect your .gitignore and automatically skip hidden
+# files/directories and binary files. The --no-ignore flag disables ripgrep's
+# gitignore  logic.
+alias rg='rg --no-ignore'
+
